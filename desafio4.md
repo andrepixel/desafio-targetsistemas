@@ -22,4 +22,4 @@ left join telephone t on c.id == t.client
 where c.state == "SP"
 ```
 
-[](https://github.com/andrepixel/desafio-targetsistemas/blob/main/database.png)
+![](https://github.com/andrepixel/desafio-targetsistemas/blob/main/database.png)
