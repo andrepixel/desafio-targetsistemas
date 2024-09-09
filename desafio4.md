@@ -16,9 +16,10 @@ CREATE TABLE telephones (
     FOREIGN KEY (client) REFERENCES client(id)  
 );
 
-
+```
 select c.name, c.state, t,typeTelephone, t.numberTelephone from clients c
 left join telephone t on c.id == t.client
 where c.state == "SP"
+```
 
-[](.database.png)
+[](https://github.com/andrepixel/desafio-targetsistemas/blob/main/database.png)
